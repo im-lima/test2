@@ -32,8 +32,9 @@ def create_wallets_bip39(num_wallets, num_words):
 
 
 # Количество кошельков для генерации
-num_wallets = 100
+num_wallets = 50
 # Количество слов в seed phrase
 num_words = 12
 
 create_wallets_bip39(num_wallets, num_words)
+
